@@ -1,5 +1,5 @@
-let speed = parseFloat(prompt("Enter the speed :"));
-speedDetector(speed);
+let speed = parseFloat(prompt("Enter the speed :"));//gets input from the user and assigns it the variable speed as a float type
+speedDetector(speed);//invokes the function speedDetector
 function speedDetector (speed){//function declaration that takes the parameter 'speed'
     const speedLimit = 70;
     if(speed<=speedLimit){//condition for checking the speed range in reference to the speed limit
