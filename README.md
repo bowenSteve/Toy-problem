@@ -1,4 +1,4 @@
-# Student Grade Generator, Speed Detector, and Net Salary Calculator
+# TOY PROBLEMS
 This project consists of three challenges: Student Grade Generator, Speed Detector, and Net Salary Calculator.
 ## Challenge 1: Student Grade Generator
 Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade:
