@@ -72,7 +72,7 @@ function payeeCalc(basic, benefits){//function calculates the PAYE, takes basic 
             return 1700;
         }    
        }
-function NSSF(tier='tier 1'){ //calculates the NHIF, and sets the default tier to tier 1
+function NSSF(tier='tier 1'){ //calculates the NSSF deductions, and sets the default tier to tier 1
     if(tier==='tier 1'){
         return 7000*0.06
     }else{
