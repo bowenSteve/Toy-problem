@@ -20,6 +20,4 @@ function gradeMarks(studentMarks){//function for grading is declared
   }else{//marks less than 40
     console.log('Student Grade: E');//prints the grade
   }
-    
-
 }
