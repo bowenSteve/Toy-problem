@@ -3,7 +3,7 @@ function checkStudentMarks(){//function for capturing the marks is declared
     if(marks>=0 && marks<=100){//checks for marks validity
         gradeMarks(marks);//calls the function for grading if the marks are valid and passes the marks as the parameter
     }else{
-        console.log('Enter Valid Marks!');
+        console.log('Enter Valid Marks!');//prints to the user to enter valid marks 
     }
 }
 checkStudentMarks();//function for checking students' marks is called.
