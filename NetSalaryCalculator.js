@@ -1,6 +1,8 @@
 let basic = parseFloat(prompt("Enter your basic Salary : "));
 let benefits = parseFloat(prompt("Enter your cumulative benefits :"));
+
 netSalaryCalculator(basic, benefits);
+
 function grossSalary(basic,benefits){
     return basic+benefits;
 }
