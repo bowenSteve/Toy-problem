@@ -12,6 +12,7 @@ function payeeCalc(basic, benefits){//function calculates the PAYE, takes basic 
     /*the following conditions checks tha monthly taxable pay and calculates the payee based on the Kenya Revenue Authority formular*/
     if (monthlyTaxablePay>=1 && monthlyTaxablePay<=24000){
       let payee = (monthlyTaxablePay*0.1)-personalBenefits;
+      
       if (payee<=0){//for all the monthly taxable pay less or equal to 24000, no payee is deducted
         return 0;
       }
