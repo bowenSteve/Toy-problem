@@ -1,3 +1,6 @@
+let basic = parseFloat(prompt("Enter your basic Salary : "));
+let benefits = parseFloat(prompt("Enter your cumulative benefits :"));
+netSalaryCalculator(basic, benefits);
 function grossSalary(basic,benefits){
     return basic+benefits;
 }
@@ -83,4 +86,3 @@ var grossSal = grossSalary(basic,benefits);//calls grossSalary function and invo
 var Netsalary= grossSal-(result1+result2+result3);//calculates the net salary by subtracting the summation of payee,NHIF and NSSF and subracting the result from gross salary.
   return `Your Net Salary is: ${Netsalary}`;
 }
-netSalaryCalculator(100000,10000);
