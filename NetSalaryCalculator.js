@@ -1,8 +1,8 @@
-let basic = parseFloat(prompt("Enter your basic Salary : "));
-let benefits = parseFloat(prompt("Enter your cumulative benefits :"));
+let basic = parseFloat(prompt("Enter your basic Salary : "));//gets the input from the user, and assigns the value to the variable basic as a float type
+let benefits = parseFloat(prompt("Enter your cumulative benefits :"));//gets the benefits from the user
 
-netSalaryCalculator(basic, benefits);
-function grossSalary(basic,benefits){
+netSalaryCalculator(basic, benefits);//invokes the function netSalaryCalculator after inputs are received 
+function grossSalary(basic,benefits){// function calculates the gross Salary
     return basic+benefits;
 }
 function payeeCalc(basic, benefits){//function calculates the PAYE, takes basic salary and benefits as parameters.
