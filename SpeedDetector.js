@@ -8,7 +8,7 @@ function speedDetector (speed){//function declaration that takes the parameter '
     }else{
         let demeritPoints = (speed-speedLimit)/5;//calculates the demerit points for speeds over 70
         if (demeritPoints>12){//checks for speeds with demerit points over 12
-            console.log('License suspended');/
+            console.log('License suspended');
           }else{
             console.log(`Points: ${demeritPoints}`);
     }
