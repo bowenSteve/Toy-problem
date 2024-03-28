@@ -25,6 +25,10 @@ To run and edit the code for this project, you'll need the following installed o
 - Visual Studio Code (VS Code) (or any other source code editor). You can download it from [here](https://code.visualstudio.com/download).
 - Node.js: A JavaScript runtime. You can download it from [here](https://nodejs.org/en/download).
 - Google Chrome Browser: Required for running the code. You can download it from [here](https://www.google.com/chrome/)
+ ### To run the code:
+- Open the project using VS Code or the code editor you are using
+- Open each file(.js files), copy the code and paste it on the chrome developer tools console
+- press ENTER to execute the code and pass the inputs to the prompt Window.
 
 ## Contributing
 We welcome pull requests. If you're considering significant changes, kindly begin by opening an issue to initiate a discussion regarding your proposed alterations. Additionally, ensure that any relevant tests are updated accordingly.
